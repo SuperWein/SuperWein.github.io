@@ -2095,6 +2095,15 @@ blockquote footer cite:before {
   -moz-background-size: cover;
   background-size: cover;
 }
+#footer:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  content: '';
+}
 #footer-wrap {
   position: relative;
   padding: 2rem 1rem;
@@ -2749,7 +2758,7 @@ header {
   align-items: center;
   margin-top: 20px;
   padding: 0;
-  height: 280px;
+  height: 220px;
   border-radius: 8px;
   background: #fff;
   -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
@@ -2779,8 +2788,8 @@ header {
 }
 #recent-posts > .recent-post-item .post_cover {
   overflow: hidden;
-  width: 45%;
-  height: 280px;
+  width: 35%;
+  height: 220px;
 }
 #recent-posts > .recent-post-item .post_cover img.post_bg {
   display: block;
@@ -2807,7 +2816,7 @@ header {
   display: inline-block;
   overflow: hidden;
   padding: 0 40px;
-  width: 55%;
+  width: 65%;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
   display: -webkit-box;
